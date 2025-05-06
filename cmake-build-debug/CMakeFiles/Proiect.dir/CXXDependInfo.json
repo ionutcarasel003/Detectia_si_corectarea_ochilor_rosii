@@ -1,0 +1,50 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "MSVC",
+	"compiler-id" : "MSVC",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "D:/PI/Detectia_si_corectia_ochilor_rosii/cmake-build-debug",
+	"dir-cur-src" : "D:/PI/Detectia_si_corectia_ochilor_rosii",
+	"dir-top-bld" : "D:/PI/Detectia_si_corectia_ochilor_rosii/cmake-build-debug",
+	"dir-top-src" : "D:/PI/Detectia_si_corectia_ochilor_rosii",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"C:\\Users\\ionut\\Downloads\\opencv\\build\\include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "D:/PI/Detectia_si_corectia_ochilor_rosii/cmake-build-debug/CMakeFiles/Proiect.dir",
+	"sources" : 
+	{
+		"CMakeFiles/Proiect.dir/ImageLoader.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/PI/Detectia_si_corectia_ochilor_rosii/ImageLoader.cpp"
+		},
+		"CMakeFiles/Proiect.dir/RedEyeCorrector.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/PI/Detectia_si_corectia_ochilor_rosii/RedEyeCorrector.cpp"
+		},
+		"CMakeFiles/Proiect.dir/RedEyeDetector.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/PI/Detectia_si_corectia_ochilor_rosii/RedEyeDetector.cpp"
+		},
+		"CMakeFiles/Proiect.dir/RedEyeProcessor.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/PI/Detectia_si_corectia_ochilor_rosii/RedEyeProcessor.cpp"
+		},
+		"CMakeFiles/Proiect.dir/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/PI/Detectia_si_corectia_ochilor_rosii/main.cpp"
+		}
+	}
+}

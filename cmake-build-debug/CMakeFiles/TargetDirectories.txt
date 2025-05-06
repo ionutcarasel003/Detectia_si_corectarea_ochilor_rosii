@@ -1,0 +1,3 @@
+D:/PI/Detectia_si_corectia_ochilor_rosii/cmake-build-debug/CMakeFiles/Detectia_si_corectia_ochilor_rosii.dir
+D:/PI/Detectia_si_corectia_ochilor_rosii/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/PI/Detectia_si_corectia_ochilor_rosii/cmake-build-debug/CMakeFiles/rebuild_cache.dir
