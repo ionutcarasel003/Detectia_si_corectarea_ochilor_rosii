@@ -1,2 +1,20 @@
 # ninja log v6
 2916	3183	7682620385058362	Proiect.exe	a8d02eb91f7e2adc
+3	192	7683094877064328	CMakeFiles/Detectia_si_corectia_ochilor_rosii.dir/main.cpp.obj.ddi	a01849b98475d681
+1619	1800	7683158296595042	Detectia_si_corectia_ochilor_rosii.exe	7623bc0646e2b8c
+7	161	7683158280478098	CMakeFiles/Detectia_si_corectia_ochilor_rosii.dir/RedEyeCorrector.cpp.obj.ddi	df6da5e44f8ed434
+9	393	7683093483525116	CMakeFiles/Detectia_si_corectia_ochilor_rosii.dir/ImageLoader.cpp.obj.ddi	f5af57f69dfa9ad1
+3	162	7683158280434272	CMakeFiles/Detectia_si_corectia_ochilor_rosii.dir/RedEyeDetector.cpp.obj.ddi	1c35c6210f834f7b
+162	185	7683158282021099	D:/PI/Detectia_si_corectia_ochilor_rosii/cmake-build-debug/CMakeFiles/Detectia_si_corectia_ochilor_rosii.dir/CXXModules.json	e50dabb4c9e76cb7
+10	149	7683158280498677	CMakeFiles/Detectia_si_corectia_ochilor_rosii.dir/RedEyeProcessor.cpp.obj.ddi	74905f2b516133e2
+162	185	7683158282021099	CMakeFiles/Detectia_si_corectia_ochilor_rosii.dir/CXX.dd	e50dabb4c9e76cb7
+162	185	7683158282021099	CMakeFiles/Detectia_si_corectia_ochilor_rosii.dir/main.cpp.obj.modmap	e50dabb4c9e76cb7
+162	185	7683158282021099	CMakeFiles/Detectia_si_corectia_ochilor_rosii.dir/ImageLoader.cpp.obj.modmap	e50dabb4c9e76cb7
+162	185	7683158282021099	CMakeFiles/Detectia_si_corectia_ochilor_rosii.dir/RedEyeDetector.cpp.obj.modmap	e50dabb4c9e76cb7
+162	185	7683158282021099	CMakeFiles/Detectia_si_corectia_ochilor_rosii.dir/RedEyeCorrector.cpp.obj.modmap	e50dabb4c9e76cb7
+192	1353	7683158282328578	CMakeFiles/Detectia_si_corectia_ochilor_rosii.dir/RedEyeProcessor.cpp.obj	8425f2eae3cf81fb
+162	185	7683158282021099	CMakeFiles/Detectia_si_corectia_ochilor_rosii.dir/RedEyeProcessor.cpp.obj.modmap	e50dabb4c9e76cb7
+189	1604	7683158282296515	CMakeFiles/Detectia_si_corectia_ochilor_rosii.dir/RedEyeCorrector.cpp.obj	c69de3754635a42a
+434	2190	7683093487770477	CMakeFiles/Detectia_si_corectia_ochilor_rosii.dir/ImageLoader.cpp.obj	ffebfcdc841a7baf
+186	1619	7683158282264909	CMakeFiles/Detectia_si_corectia_ochilor_rosii.dir/RedEyeDetector.cpp.obj	133181cedf89b73e
+217	2658	7683094879195908	CMakeFiles/Detectia_si_corectia_ochilor_rosii.dir/main.cpp.obj	71a9dec809791860

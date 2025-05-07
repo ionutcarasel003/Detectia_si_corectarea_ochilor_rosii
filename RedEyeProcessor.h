@@ -5,7 +5,7 @@
 #ifndef REDEYEPROCESSOR_H
 #define REDEYEPROCESSOR_H
 
-
+#include <string>
 
 class RedEyeProcessor {
 public:

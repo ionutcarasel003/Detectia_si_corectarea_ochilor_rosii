@@ -1,8 +1,5 @@
-//
-// Created by ionut on 5/6/2025.
-//
-
 #include "RedEyeCorrector.h"
+#include <opencv2/imgproc.hpp>
 
 void RedEyeCorrector::correct(cv::Mat& image, const std::vector<cv::Rect>& regions) {
     for (const auto& region : regions) {
@@ -15,10 +12,11 @@ void RedEyeCorrector::correct(cv::Mat& image, const std::vector<cv::Rect>& regio
                 uchar green = pixel[1];
                 uchar red = pixel[2];
 
-                if (red > 150 && red > green + 40 && red > blue + 40) {
-                    uchar avg = static_cast<uchar>((green + blue) / 2);
-                    pixel[2] = avg;
+                if (red > 120 && red > green + 30 && red > blue + 30) {
+                    uchar newRed = static_cast<uchar>((green + blue) / 3);
+                    pixel[2] = static_cast<uchar>(0.8 * newRed + 0.2 * red);
                 }
+
             }
         }
     }

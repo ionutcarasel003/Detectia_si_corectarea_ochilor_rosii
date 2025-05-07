@@ -5,6 +5,7 @@
 #include "RedEyeDetector.h"
 
 #include <opencv2/imgproc.hpp>
+#include <opencv2/imgcodecs.hpp>
 
 RedEyeDetector::RedEyeDetector(const cv::Mat &image) {
     originalImage = image.clone();
@@ -17,11 +18,12 @@ void RedEyeDetector::generateMask() {
 
     std::vector<cv::Mat> channels;
     cv::split(imgYCrCb, channels);
-    cv::threshold(channels[1], mask, 1, 255, cv::THRESH_BINARY);
+    cv::threshold(channels[1], mask, 165, 255, cv::THRESH_BINARY);
 
     cv::medianBlur(mask, mask, 5);
     cv::Mat kernel = cv::getStructuringElement(cv::MORPH_ELLIPSE, cv::Size(5, 5));
     cv::morphologyEx(mask, mask, cv::MORPH_OPEN, kernel);
+    cv::imwrite("D:\\PI\\masca_detectata.jpg", mask);
 }
 
 std::vector<cv::Rect> RedEyeDetector::detect () {
@@ -36,6 +38,12 @@ std::vector<cv::Rect> RedEyeDetector::detect () {
             redEyeRegions.push_back(box);
         }
     }
+
+    cv::Mat debugImage = originalImage.clone();
+    for (const auto& box : redEyeRegions) {
+        cv::rectangle(debugImage, box, cv::Scalar(0, 255, 0), 2);
+    }
+    cv::imwrite("D:\\PI\\detectie_contururi.jpg", debugImage);
 
     return redEyeRegions;
 }
