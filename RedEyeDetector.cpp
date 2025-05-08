@@ -35,7 +35,14 @@ std::vector<cv::Rect> RedEyeDetector::detect () {
     for (const auto& contour : contours) {
         cv::Rect box = cv::boundingRect(contour);
         if (box.area() > 100) {
-            redEyeRegions.push_back(box);
+            cv::Rect expandedBox = box;
+            int expand = 5;
+            expandedBox.x = std::max(0, box.x - expand);
+            expandedBox.y = std::max(0, box.y - expand);
+            expandedBox.width = std::min(originalImage.cols - expandedBox.x, box.width + 2 * expand);
+            expandedBox.height = std::min(originalImage.rows - expandedBox.y, box.height + 2 * expand);
+
+            redEyeRegions.push_back(expandedBox);
         }
     }
 

@@ -13,5 +13,6 @@ add_executable(Detectia_si_corectia_ochilor_rosii main.cpp
         RedEyeCorrector.cpp
         RedEyeCorrector.h
         RedEyeProcessor.cpp
-        RedEyeProcessor.h)
+        RedEyeProcessor.h
+)
 target_link_libraries(Detectia_si_corectia_ochilor_rosii ${OpenCV_LIBS})
