@@ -13,8 +13,8 @@ void RedEyeCorrector::correct(cv::Mat& image, const std::vector<cv::Rect>& regio
                 uchar red = pixel[2];
 
                 if (red > 120 && red > green + 30 && red > blue + 30) {
-                    uchar newRed = static_cast<uchar>((green + blue) / 3);
-                    pixel[2] = static_cast<uchar>(0.8 * newRed + 0.2 * red);
+                    uchar newRed = static_cast<uchar>((green + blue) / 2);
+                    pixel[2] = newRed;
                 }
 
             }
