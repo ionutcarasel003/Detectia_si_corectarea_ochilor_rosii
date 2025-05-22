@@ -42,7 +42,11 @@ std::vector<cv::Rect> RedEyeDetector::detect () {
             expandedBox.width = std::min(originalImage.cols - expandedBox.x, box.width + 2 * expand);
             expandedBox.height = std::min(originalImage.rows - expandedBox.y, box.height + 2 * expand);
 
-            redEyeRegions.push_back(expandedBox);
+            float aspectRatio = static_cast<float>(expandedBox.width) / expandedBox.height;
+            if (aspectRatio > 0.75 && aspectRatio <1.65) {
+                redEyeRegions.push_back(expandedBox);
+            }
+            //redEyeRegions.push_back(expandedBox);
         }
     }
 

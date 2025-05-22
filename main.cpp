@@ -3,16 +3,10 @@
 #include "RedEyeProcessor.h"
 
 int main(int argc, char** argv) {
-    if (argc != 3) {
-        std::cerr << "Utilizare: " << argv[0] << " <input.jpg> <output.jpg>" << std::endl;
-        return 1;
-    }
-
-    std::string inputPath = argv[1];
-    std::string outputPath = argv[2];
 
     RedEyeProcessor processor;
-    processor.run(inputPath, outputPath);
-
+    processor.run("D:\\PI\\Poza_de_test1.jpg", "D:\\PI\\Poza_rezultat1.jpg");
+    processor.run("D:\\PI\\Poza_de_test2.jpg", "D:\\PI\\Poza_rezultat2.jpg");
+    processor.run("D:\\PI\\Poza_de_test3.jpg", "D:\\PI\\Poza_rezultat3.jpg");
     return 0;
 }

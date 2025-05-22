@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\Detectia_si_corectia_ochilor_rosii.dir\\main.cpp.obj",
+            "outputs": [
+                "D:\\PI\\Detectia_si_corectia_ochilor_rosii\\cmake-build-debug\\vc140.pdb",
+                "CMakeFiles\\Detectia_si_corectia_ochilor_rosii.dir\\main.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}
