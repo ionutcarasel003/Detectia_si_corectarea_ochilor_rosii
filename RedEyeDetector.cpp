@@ -46,7 +46,6 @@ std::vector<cv::Rect> RedEyeDetector::detect () {
             if (aspectRatio > 0.75 && aspectRatio <1.65) {
                 redEyeRegions.push_back(expandedBox);
             }
-            //redEyeRegions.push_back(expandedBox);
         }
     }
 
